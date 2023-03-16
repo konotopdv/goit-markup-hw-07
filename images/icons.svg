@@ -173,7 +173,9 @@
 <symbol id="icon-icon-send" viewBox="0 0 48 40">
 <path d="M48 0l-48 22.5 15.34 4.734 23.66-18.484-17.997 20.233 0.015 0.005-0.018-0.005v11.017l8.603-8.363 10.898 3.363 7.5-35z"></path>
 </symbol>
-
+<symbol id="icon-charm_menu-hamburger" viewBox="0 0 58 40">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.4545" d="M2.45 36.442h53.706M2.45 19.519h53.706M2.45 2.596h53.706"></path>
+</symbol>
 </defs>
 </svg>
 
