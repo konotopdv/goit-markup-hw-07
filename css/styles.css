@@ -215,7 +215,7 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 428px) {
 
     .nav-address-desktop {
         flex-direction: column;
@@ -236,10 +236,19 @@ body {
     }
 }
 
-.hamburger {
-    stroke: var(--navy);
+
+.button-burger {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: transparent;
+border: none;
+width: 32px;
+height: 22px;
+stroke: var(--navy);
+padding: 0;
 }
-  
+
 .hero {
     padding-top: 188px;
         padding-bottom: 188px;
@@ -269,6 +278,19 @@ body {
           
       
 }
+@media screen and (max-width: 768px) {
+    .hero-title{
+    font-size: 36px;
+    line-height: 1.11;
+    max-width: 320px;
+    text-transform: capitalize;
+    margin: 0 auto 72px;
+    }}
+@media screen and (max-width: 1200px) {
+    .hero-title {
+    margin: 0 auto 36px;
+    }}
+
 .hero .container {
         justify-content: space-between;
         align-items: center;
